@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+
+# Netlify build artifacts (regenerated from source)
+netlify-deploy/
+netlify-deploy.zip
+
+# Large source material, not needed in the repo
+Rmsc.pptx.pdf
+ChatGPT Image*.png
+
+# Superseded Stitch prototype export
+stitch-export/
+
+# Local-only tool settings
+.claude/settings.local.json

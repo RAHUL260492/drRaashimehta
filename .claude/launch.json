@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "stitch-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["stitch-export/server.js"],
+      "port": 4599
+    },
+    {
+      "name": "root-site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [".claude/preview-server.js"],
+      "port": 4600
+    }
+  ]
+}
