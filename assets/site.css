@@ -16,7 +16,7 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'Jost',-apple-system,sans-serif;color:var(--ink);background:var(--white);line-height:1.7;font-weight:300;-webkit-font-smoothing:antialiased}
+body{font-family:'Jost',-apple-system,sans-serif;color:var(--ink);background:var(--white);line-height:1.7;font-weight:400;text-rendering:optimizeLegibility}
 h1,h2,h3,h4{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.15;letter-spacing:.2px}
 a{color:inherit;text-decoration:none}
 img{max-width:100%;display:block}
