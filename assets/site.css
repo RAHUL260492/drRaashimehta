@@ -61,6 +61,8 @@ nav{display:flex;align-items:center;justify-content:space-between;height:74px}
   .dropdown>button{width:100%;justify-content:space-between}
   .dropdown-menu{position:static;transform:none;opacity:1;visibility:visible;box-shadow:none;border:0;border-left:2px solid var(--teal-soft);border-radius:0;min-width:0;margin:2px 0 8px 6px;padding:0 0 0 10px;display:none}
   .dropdown.open .dropdown-menu{display:grid}
+  /* cancel the desktop translateX(-50%) that :hover/:focus-within re-applies (higher specificity) — it shifts the mobile submenu off-screen */
+  .dropdown:hover .dropdown-menu,.dropdown:focus-within .dropdown-menu{transform:none}
   .dropdown.open>button svg{transform:rotate(180deg)}
   .navlinks .btn{justify-content:center;margin-top:10px}
   .menu-btn{display:block}
